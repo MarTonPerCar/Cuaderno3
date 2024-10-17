@@ -250,7 +250,7 @@ Fragmento: 56 veces (56.00%)
 
 Por ejemplo, si el porcentaje de fragemento es del 58%, el sistema seleccionará pellets aproximadamente el 58% de las veces durante las pruebas.
 
-2. ¿Cómo se hacen las transformaciones y para qué se usan?
+### 2. ¿Cómo se hacen las transformaciones y para qué se usan?
 
 Para evaluar la robustez del sistema de clasificación, se aplican diversas transformaciones a las imágenes originales. Estas modificaciones crean versiones alteradas de la imagen para simular condiciones realistas en las que la imagen puede verse afectada. Las transformaciones disponibles son:
 
@@ -266,7 +266,7 @@ Estas transformaciones se utilizan para crear versiones modificadas de la imagen
 
 En palabras más simples se utiliza estás nuevas imagenes para sacar los porcentajes que luego ser´qn lo que se pongan en la matriz
 
-3. ¿Qué es una matriz de confusión y cómo se genera?
+### 3. ¿Qué es una matriz de confusión y cómo se genera?
 
 La matriz de confusión es una herramienta que evalúa la precisión de un modelo de clasificación comparando las predicciones realizadas con las clases reales. Viendolo nuevamente por secciones
 
